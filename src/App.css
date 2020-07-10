@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.table {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+th {
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.modal {
+    padding: 10px;
+    background-color: white;
+    width: 320px;
+    height: 280px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.name-input {
+    margin: 10px;
+}
+
+.phone-input {
+    margin: 10px;
+}
+
+.email-input {
+    margin: 10px;
+}
+
+.edit-button {
+    margin: 10px;
+}
