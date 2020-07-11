@@ -3,13 +3,11 @@
     padding: 0;
 }
 .table {
-    width: 500px;
+    min-width: 500px;
+    max-width: 800px;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
-}
-
-th {
-    padding: 10px;
 }
 
 .form {
@@ -33,18 +31,4 @@ body {
     background-color: whitesmoke;
 }
 
-.name-input {
-    margin: 10px;
-}
 
-.phone-input {
-    margin: 10px;
-}
-
-.email-input {
-    margin: 10px;
-}
-
-.edit-button {
-    margin: 10px;
-}

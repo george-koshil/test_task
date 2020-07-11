@@ -36,7 +36,6 @@ export default function EditTable(props) {
   return (
     <form noValidate autoComplete="off" className="form">
       <TextField
-        className="name-input"
         id="name"
         label="Name"
         variant="outlined"
@@ -44,7 +43,6 @@ export default function EditTable(props) {
         onChange={handleChange}
       />
       <TextField
-        className="email-input"
         id="email"
         label="Email"
         variant="outlined"
@@ -52,7 +50,6 @@ export default function EditTable(props) {
         onChange={handleChange}
       />
       <TextField
-        className="phone-input"
         id="phone"
         label="Phone"
         variant="outlined"
@@ -64,13 +61,11 @@ export default function EditTable(props) {
         variant="contained"
         color="primary"
         onClick={handleRecord}
-        className="edit-button"
       >
         {buttonName}
       </Button>
 
       <Button
-        className="cancel-button"
         variant="contained"
         color="primary"
         onClick={handleCancelChanges.bind(null, prevData)}
